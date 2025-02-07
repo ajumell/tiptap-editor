@@ -1,0 +1,146 @@
+/* Import the Open Sans font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Namespace Reset: Only affects elements within .doc-style-1 */
+.doc-style-1 * {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+/* Base Styles for the Namespace Container */
+.doc-style-1 {
+    font-family:      "Open Sans", sans-serif;
+    color:            #333;
+    padding:          20px;
+    line-height:      1.6; /* Overall line height for text */
+}
+
+/* Article Styles */
+.doc-style-1 article {
+    max-width:        800px;
+    margin:           40px auto;
+    background-color: #ffffff;
+    padding:          30px;
+    border-radius:    8px;
+    box-shadow:       0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.doc-style-1 h1,
+.doc-style-1 h2,
+.doc-style-1 h3,
+.doc-style-1 h4,
+.doc-style-1 h5,
+.doc-style-1 h6 {
+    font-weight:   600;
+    margin-bottom: 20px;
+    color:         #2c3e50;
+    line-height:   1.2; /* Line height for headings */
+}
+
+.doc-style-1 h1 {
+    font-size:     2.5em;
+    margin-bottom: 10px;
+}
+
+.doc-style-1 h2 {
+    font-size:      2em;
+    border-bottom:  2px solid #e1e8ed;
+    padding-bottom: 8px;
+}
+
+/* Paragraphs */
+.doc-style-1 p {
+    margin-bottom: 20px;
+    line-height:   1.8;
+}
+
+/* Links */
+.doc-style-1 a {
+    color:           #3498db;
+    text-decoration: none;
+    font-weight:     600;
+}
+
+.doc-style-1 a:hover {
+    text-decoration: underline;
+}
+
+/* Inline Code */
+.doc-style-1 code {
+    background-color: #ecf0f1;
+    padding:          3px 6px;
+    border-radius:    4px;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+/* Code Blocks */
+.doc-style-1 pre {
+    background-color: #ecf0f1;
+    padding:          15px;
+    overflow-x:       auto;
+    border-radius:    4px;
+    margin-bottom:    20px;
+}
+
+.doc-style-1 pre code {
+    background-color: transparent;
+    padding:          0;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size:        0.9em;
+    line-height:      1.4;
+}
+
+/* Blockquote */
+.doc-style-1 blockquote {
+    border-left:  4px solid #3498db;
+    padding-left: 20px;
+    margin:       20px 0;
+    color:        #555;
+    font-style:   italic;
+}
+
+.doc-style-1 blockquote footer {
+    font-size:  0.85em;
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* Lists with Increased Line Height */
+.doc-style-1 ul,
+.doc-style-1 ol,
+.doc-style-1 dl {
+    margin:       20px 0;
+    padding-left: 40px;
+    line-height:  2; /* Increased line height for list items */
+}
+
+/* Table */
+.doc-style-1 table {
+    width:           100%;
+    border-collapse: collapse;
+    margin-bottom:   20px;
+}
+
+.doc-style-1 table th,
+.doc-style-1 table td {
+    border:     1px solid #bdc3c7;
+    padding:    12px;
+    text-align: left;
+}
+
+.doc-style-1 table th {
+    background-color: #3498db;
+    color:            #fff;
+}
+
+/* Footer */
+.doc-style-1 footer {
+    text-align:  center;
+    padding-top: 20px;
+    border-top:  1px solid #e1e8ed;
+    margin-top:  40px;
+    font-size:   0.9em;
+    color:       #777;
+}
