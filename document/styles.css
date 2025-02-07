@@ -1,3 +1,6 @@
+/* Import the Open Sans font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
 /* Basic Reset */
 * {
     margin:     0;
@@ -5,38 +8,52 @@
     box-sizing: border-box;
 }
 
-/* Body and Article */
+/* Body & Overall Layout */
 body {
-    font-family:      Arial, sans-serif;
-    line-height:      1.6;
+    font-family:      "Open Sans", sans-serif;
+    background-color: #f4f7f6;
     color:            #333;
-    background-color: #f8f8f8;
     padding:          20px;
 }
 
 article {
     max-width:        800px;
-    margin:           0 auto;
-    background-color: #fff;
+    margin:           40px auto;
+    background-color: #ffffff;
     padding:          30px;
-    box-shadow:       0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:    8px;
+    box-shadow:       0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 15px;
-    color:         #222;
+    font-weight:   600;
+    margin-bottom: 20px;
+    color:         #2c3e50;
+}
+
+h1 {
+    font-size:     2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size:      2em;
+    border-bottom:  2px solid #e1e8ed;
+    padding-bottom: 8px;
 }
 
 /* Paragraphs */
 p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    line-height:   1.8;
 }
 
 /* Links */
 a {
-    color:           #007BFF;
+    color:           #3498db;
     text-decoration: none;
+    font-weight:     600;
 }
 
 a:hover {
@@ -45,43 +62,46 @@ a:hover {
 
 /* Inline Code */
 code {
-    background-color: #f1f1f1;
-    padding:          2px 4px;
-    border-radius:    3px;
+    background-color: #ecf0f1;
+    padding:          3px 6px;
+    border-radius:    4px;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 
 /* Code Blocks */
 pre {
-    background-color: #f1f1f1;
-    padding:          10px;
+    background-color: #ecf0f1;
+    padding:          15px;
     overflow-x:       auto;
-    border-radius:    3px;
-    margin-bottom:    15px;
+    border-radius:    4px;
+    margin-bottom:    20px;
 }
 
 pre code {
     background-color: transparent;
     padding:          0;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size:        0.9em;
 }
 
 /* Blockquote */
 blockquote {
-    border-left:  4px solid #ccc;
-    padding-left: 15px;
+    border-left:  4px solid #3498db;
+    padding-left: 20px;
+    margin:       20px 0;
     color:        #555;
     font-style:   italic;
-    margin:       15px 0;
 }
 
 blockquote footer {
-    font-size:  0.9em;
+    font-size:  0.85em;
     text-align: right;
     margin-top: 5px;
 }
 
 /* Lists */
 ul, ol, dl {
-    margin:       15px 0;
+    margin:       20px 0;
     padding-left: 40px;
 }
 
@@ -89,22 +109,26 @@ ul, ol, dl {
 table {
     width:           100%;
     border-collapse: collapse;
-    margin-bottom:   15px;
+    margin-bottom:   20px;
 }
 
 table th, table td {
-    border:  1px solid #ddd;
-    padding: 8px;
+    border:     1px solid #bdc3c7;
+    padding:    12px;
+    text-align: left;
 }
 
 table th {
-    background-color: #f2f2f2;
+    background-color: #3498db;
+    color:            #fff;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding:    20px 0;
-    border-top: 1px solid #ddd;
-    margin-top: 30px;
+    text-align:  center;
+    padding-top: 20px;
+    border-top:  1px solid #e1e8ed;
+    margin-top:  40px;
+    font-size:   0.9em;
+    color:       #777;
 }
