@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TipTapEditor from './components/TipTapEditor.vue'
+import TipTapEditor from './components/BlockEditor.vue'
 
 export default {
   name      : 'App',

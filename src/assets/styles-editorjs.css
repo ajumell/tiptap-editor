@@ -1,0 +1,136 @@
+/* Import the Open Sans font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+/* Reset: Only affects elements within each Editor.js content block */
+.doc-style-1 .editor-js .ce-block__content * {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+/* Base Styles for the Editor Content */
+.doc-style-1 .editor-js .ce-block__content {
+    font-family: "Open Sans", sans-serif;
+    color:       #333;
+    padding:     20px;
+    line-height:  1.6;
+}
+
+/* Headings within Editor.js blocks */
+.doc-style-1 .editor-js .ce-block__content h1,
+.doc-style-1 .editor-js .ce-block__content h2,
+.doc-style-1 .editor-js .ce-block__content h3,
+.doc-style-1 .editor-js .ce-block__content h4,
+.doc-style-1 .editor-js .ce-block__content h5,
+.doc-style-1 .editor-js .ce-block__content h6 {
+    font-weight:   600;
+    margin-bottom: 20px;
+    color:         #2c3e50;
+    line-height:   1.2;
+}
+
+.doc-style-1 .editor-js .ce-block__content h1 {
+    font-size:     2.5em;
+    margin-bottom: 10px;
+}
+
+.doc-style-1 .editor-js .ce-block__content h2 {
+    font-size:      2em;
+    border-bottom:  2px solid #e1e8ed;
+    padding-bottom: 8px;
+}
+
+/* Paragraphs */
+.doc-style-1 .editor-js .ce-block__content p {
+    margin-bottom: 20px;
+    line-height:   1.8;
+}
+
+/* Links */
+.doc-style-1 .editor-js .ce-block__content a {
+    color:           #3498db;
+    text-decoration: none;
+    font-weight:     600;
+}
+
+.doc-style-1 .editor-js .ce-block__content a:hover {
+    text-decoration: underline;
+}
+
+/* Inline Code */
+.doc-style-1 .editor-js .ce-block__content code {
+    background-color: #ecf0f1;
+    padding:          3px 6px;
+    border-radius:    4px;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+/* Code Blocks */
+.doc-style-1 .editor-js .ce-block__content pre {
+    background-color: #ecf0f1;
+    padding:          15px;
+    overflow-x:       auto;
+    border-radius:    4px;
+    margin-bottom:    20px;
+}
+
+.doc-style-1 .editor-js .ce-block__content pre code {
+    background-color: transparent;
+    padding:          0;
+    font-family:      Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size:        0.9em;
+    line-height:      1.4;
+}
+
+/* Blockquote */
+.doc-style-1 .editor-js .ce-block__content blockquote {
+    border-left:  4px solid #3498db;
+    padding-left: 20px;
+    margin:       20px 0;
+    color:        #555;
+    font-style:   italic;
+}
+
+.doc-style-1 .editor-js .ce-block__content blockquote footer {
+    font-size:  0.85em;
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* Lists with Increased Line Height */
+.doc-style-1 .editor-js .ce-block__content ul,
+.doc-style-1 .editor-js .ce-block__content ol,
+.doc-style-1 .editor-js .ce-block__content dl {
+    margin:       20px 0;
+    padding-left: 40px;
+    line-height:  2;
+}
+
+/* Table */
+.doc-style-1 .editor-js .ce-block__content table {
+    width:           100%;
+    border-collapse: collapse;
+    margin-bottom:   20px;
+}
+
+.doc-style-1 .editor-js .ce-block__content table th,
+.doc-style-1 .editor-js .ce-block__content table td {
+    border:     1px solid #bdc3c7;
+    padding:    12px;
+    text-align: left;
+}
+
+.doc-style-1 .editor-js .ce-block__content table th {
+    background-color: #3498db;
+    color:            #fff;
+}
+
+/* Footer */
+.doc-style-1 .editor-js .ce-block__content footer {
+    text-align:  center;
+    padding-top: 20px;
+    border-top:  1px solid #e1e8ed;
+    margin-top:  40px;
+    font-size:   0.9em;
+    color:       #777;
+}

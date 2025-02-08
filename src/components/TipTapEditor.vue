@@ -219,7 +219,7 @@ onBeforeUnmount(() => {
 }
 
 @media screen and (max-width: 600px) {
-  ..drag-handle {
+  .drag-handle {
     display:        none;
     pointer-events: none;}
 }
