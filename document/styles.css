@@ -145,3 +145,16 @@
     font-size:   0.9em;
     color:       #777;
 }
+
+
+@media print {
+    .doc-style-1 {
+        background-color: #fff;
+    }
+
+    .doc-style-1 article {
+        margin:     0;
+        box-shadow: none;
+        border:     none;
+    }
+}
