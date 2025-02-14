@@ -152,6 +152,10 @@
         background-color: #fff;
     }
 
+    .doc-style-1 h1, .doc-style-1 h2 {
+        page-break-before: always;
+    }
+
     .doc-style-1 article {
         margin:     0;
         box-shadow: none;
